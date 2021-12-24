@@ -1,0 +1,20 @@
+/* footer */
+
+.footer-inner{
+    padding: 38px 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-copy{
+    font-size: 15px;
+    color: #999999;
+}
+.footer-icos{
+    display: flex;
+    margin: 0 -2.5px
+}
+.foter-ico{
+    margin: 0 2.5px;
+    cursor: pointer;
+}

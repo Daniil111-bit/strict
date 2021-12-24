@@ -1,0 +1,53 @@
+/* strics */
+
+.strict-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -30px;
+    padding: 64px 0 34px 0;
+}
+
+.strict-cards-blok-wrapper{
+    width: 33.33333%;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+.strict-cards-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.strict-card-block-item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #5fc3ff;
+    margin-bottom: 33px;
+}
+.strict-card-block-item::before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background-color: #48baff
+}
+.block-img{
+    position: relative;
+    z-index: 2;
+}
+.strict-card-block-title{
+    font-size: 22px;
+    color: #2d3950;
+    margin-bottom: 24px;
+}
+.strict-card-block-text{
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+}
